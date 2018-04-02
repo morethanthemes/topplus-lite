@@ -1,0 +1,132 @@
+/**
+ * @file
+ * Visual styles for Top+ Lite's subscribe forms.
+ */
+/*subscribe form*/
+.subscribe-form {
+  position: relative;
+  top: 0px;
+  width: 100%;
+  left: 0;
+  margin-bottom: 100px;
+}
+.footer-top__section .subscribe-form {
+  margin: 5px 0;
+}
+@media (max-width: 992px) {
+  .footer-top__section .subscribe-form {
+    margin-bottom: 20px;
+  } 
+}
+@media (max-width: 767px) {
+  .footer__section .subscribe-form {
+    margin-bottom: 50px;
+  }
+}
+.subscribe-form .form-group {
+  display: block;
+}
+.subscribe-form .form-item,
+.subscribe-form .form-actions { 
+  margin: 0;
+}
+.subscribe-form .form-item {
+  margin-right: 200px;
+}
+.subscribe-form input.form-text {
+  background-color: transparent;
+  border-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-width: 0 0 2px 0;
+  border-style: solid;
+  border-color: rgba(237, 237, 237, 0.3);
+  font-size: 32px;
+}
+.subscribe-form input.form-text:hover,
+.subscribe-form input.form-text:focus {
+  background-color: transparent;
+}
+.region--dark-typography .subscribe-form input.form-text {
+  border-color: #000000;
+}
+.region--dark-typography .subscribe-form input.form-text:hover,
+.region--dark-typography .subscribe-form input.form-text:focus {
+  border-color: #000000;
+  background-color: transparent;
+}
+.region--light-typography .subscribe-form .form-text {
+  color: #ffffff;
+}
+.subscribe-form input[type="submit"] {
+  margin: 0;
+  padding: 14px 15px;
+  font-size: 32px;
+  min-width: 185px;
+  position: absolute;
+  right: 0;
+  top: auto;
+  bottom: 0;
+  line-height: 1.35;
+  background-color: transparent;
+  border-width: 0 0 2px 0;
+  border-style: solid;
+}
+.subscribe-form input[type="submit"]:hover,
+.subscribe-form input[type="submit"]:focus {
+  background-color: transparent;
+}
+.region--colored-background .subscribe-form input[type="submit"],
+.region--dark-background .subscribe-form input[type="submit"] {
+  color: #000000;
+  border-color: #000000;
+}
+.region--colored-background .subscribe-form input[type="submit"]:hover,
+.region--dark-background .subscribe-form input[type="submit"]:hover,
+.region--colored-background .subscribe-form input[type="submit"]:focus,
+.region--dark-background .subscribe-form input[type="submit"]:focus {
+  opacity: 0.75;
+  color: #000000;
+  border-color: #000000;
+}
+@media (max-width: 575px) {
+  .subscribe-form {
+    margin-bottom: 50px;
+  }
+  .subscribe-form .form-item {
+    margin-right: 110px;
+  }
+  .subscribe-form input.form-text {
+    font-size: 20px;
+  }
+  .subscribe-form input[type="submit"] {
+    font-size: 20px;
+    min-width: 100px;
+  }
+}
+
+/*subscribe full width*/
+.subscribe-full-width h4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.subscribe-full-width .form-text {
+  margin-top: 0;
+}
+.subscribe-full-width input[type="submit"] {
+  padding: 15px 25px;
+}
+.subscribe-full-width h4 i {
+  padding-right: 10px;
+}
+@media (min-width: 768px) {
+  .subscribe-full-width input[type="submit"] {
+    margin: 0;
+  }
+}
+@media (min-width: 992px) {
+  .subscribe-full-width h4 {
+    text-align: left;
+    margin: 15px 0;
+  }
+}

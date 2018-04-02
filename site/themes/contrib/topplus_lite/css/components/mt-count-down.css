@@ -1,0 +1,95 @@
+/**
+ * @file
+ * Visual styles for Top+ Lite's mt-count-down module.
+ */
+.mt-count-down.mt-count-down-theme {
+  color: #ffffff;
+  background-color: #000000;
+}
+.mt-count-down.mt-count-down-theme .mt-count-down__notes,
+.mt-count-down.mt-count-down-theme .mt-count-down__message,
+.mt-count-down.mt-count-down-theme .mt-count-down__title,
+.mt-count-down.mt-count-down-theme .mt-label {
+  color: #ffffff;
+}
+.mt-count-down {
+  padding: 20px 0;
+  margin: 0;
+  border-radius: 0;
+  border: none;
+}
+.mt-count-down__title {
+  font-size: 32px;
+  font-weight: 400;
+  margin: 0;
+}
+.mt-count-down__message {
+  font-size: 12px;
+  padding-bottom: 0;
+}
+.mt-count-down__button {
+  margin-top: 15px;
+  font-size: 16px;
+  padding: 7px 20px;
+  font-weight: 400;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 1;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  margin: 10px 0;
+  text-align: center;
+}
+@media (max-width: 575px) {
+  .mt-count-down__title,
+  .mt-count-down__message {
+    text-align: center;
+  }
+}
+.mt-count-down.mt-count-down-theme .mt-count-down__button {
+  color: #000000;
+}
+.mt-count-down__daysto {
+  text-align: right;
+}
+.mt-count-down__daysto .mt-time {
+  display: inline-block;
+  text-align: center;
+  margin: 0 10px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .mt-count-down__daysto .mt-time {
+    margin: 0 3px;
+  }
+}
+@media (max-width: 767px) {
+  .mt-count-down__daysto > span {
+    margin-top: 20px;
+    display: block;
+  }
+}
+.mt-count-down__daysto .mt-count,
+.mt-count-down__daysto .mt-label {
+  display: block;
+}
+.mt-count-down__daysto .mt-count {
+  font-size: 20px;
+  line-height: 1.2;
+}
+.mt-count-down__daysto .mt-label {
+  font-size: 10px;
+  text-transform: capitalize;
+}
+.mt-count-down.alert button.close {
+  top: 10px;
+  right: 20px;
+}

@@ -1,0 +1,191 @@
+/**
+ * @file
+ * Styles for Top+ Lite's buttons.
+ */
+a.button,
+.button > a,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  font-size: 24px;
+  font-weight: 400;
+  padding: 12px 25px;
+  color: #000000;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 1;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  margin: 10px 0;
+  text-align: center;
+  background-color: transparent;
+}
+.region--colored-background a.button,
+.region--colored-background .button > a,
+.region--colored-background input[type="submit"],
+.region--colored-background input[type="reset"],
+.region--colored-background input[type="button"],
+.region--dark-background a.button,
+.region--dark-background .button > a,
+.region--dark-background input[type="submit"],
+.region--dark-background input[type="reset"],
+.region--dark-background input[type="button"] {
+  border-color: #000000;
+}
+a.button.button--small,
+.button.button--small > a {
+  font-size: 16px;
+  padding: 7px 20px;
+}
+a.button.button--chevron-icon,
+.button.button--chevron-icon > a {
+  padding-right: 19px;
+  padding-left: 35px;
+}
+a.button.button--chevron-icon:after,
+.button.button--chevron-icon > a:after {
+  content: "\f105";
+  font-family: "FontAwesome";
+  padding-left: 12px;
+}
+a.button.button--black,
+.button.button--black > a,
+.region--light-typography a.button.button--black,
+.region--light-typography .button.button--black > a {
+  background-color: transparent;
+  border-color: #000000;
+  color: #000000;
+}
+a.button.button--black:hover,
+.button.button--black > a:hover,
+.region--light-typography a.button.button--black:hover,
+.region--light-typography .button.button--black > a:hover {
+  background-color: #000000;
+  border-color: #000000;
+  color: #ffffff;
+}
+.region--light-typography.region--black-background a.button.button--black,
+.region--light-typography.region--black-background .button.button--black > a {
+  background-color: transparent;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+.region--light-typography.region--black-background a.button.button--black:hover,
+.region--light-typography.region--black-background .button.button--black > a:hover {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #000000;
+}
+.headings-wide-spacing-enabled a.button,
+.headings-wide-spacing-enabled .button > a,
+.headings-wide-spacing-enabled input[type="submit"],
+.headings-wide-spacing-enabled input[type="reset"],
+.headings-wide-spacing-enabled input[type="button"] {
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+}
+input[type="submit"] + input[type="submit"],
+.button + .button {
+  margin-left: 20px;
+}
+@media (max-width: 767px) {
+  .text-center .button + .button {
+    margin-right: 5px;
+  }
+  .text-center .button {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}
+a.button:hover,
+a.button:focus,
+.button > a:hover,
+.button > a:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input[type="button"]:hover,
+input[type="button"]:focus {
+  color: #000000;
+  border-color: transparent;
+}
+.region--colored-background a.button:hover,
+.region--colored-background .button > a:hover,
+.region--colored-background input[type="submit"]:hover,
+.region--colored-background input[type="reset"]:hover,
+.region--colored-background input[type="button"]:hover,
+.region--dark-background a.button:hover,
+.region--dark-background .button > a:hover,
+.region--dark-background input[type="submit"]:hover,
+.region--dark-background input[type="reset"]:hover,
+.region--dark-background input[type="button"]:hover,
+.region--colored-background a.button:focus,
+.region--colored-background .button > a:focus,
+.region--colored-background input[type="submit"]:focus,
+.region--colored-background input[type="reset"]:focus,
+.region--colored-background input[type="button"]:focus,
+.region--dark-background a.button:focus,
+.region--dark-background .button > a:focus,
+.region--dark-background input[type="submit"]:focus,
+.region--dark-background input[type="reset"]:focus,
+.region--dark-background input[type="button"]:focus {
+  border-color: #000000;
+}
+span.button-operator {
+  margin: 0 10px 0 5px;
+}
+a.button i {
+  padding-right: 10px;
+}
+a.button--no-margins {
+  margin: 0;
+}
+
+/*Buttons hover style 2*/
+a.button.button--hover-style-2,
+.button.button--hover-style-2 > a {
+  position: relative;
+  z-index: 1;
+}
+a.button.button--hover-style-2:before,
+.button.button--hover-style-2 > a:before {
+  content:"";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transform: scaleX(0);
+  border-radius: 0px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+a.button.button--hover-style-2:hover:before,
+a.button.button--hover-style-2:focus:before,
+.button.button--hover-style-2 > a:hover:before,
+.button.button--hover-style-2 > a:focus:before {
+  transform: scaleX(1);
+}
+
+/*Colored Regions style 2*/
+.region--colored-background a.button.button--hover-style-2:hover,
+.region--dark-background a.button.button--hover-style-2:hover,
+.region--colored-background .button.button--hover-style-2 > a:hover,
+.region--dark-background .button.button--hover-style-2 > a:hover {
+  background-color: transparent;
+  border-color: #000000;
+}

@@ -1,0 +1,62 @@
+/**
+ * @file
+ * Visual styles for Top+ Lite's nav pills.
+ */
+.nav.nav-pills {
+  margin-right: -5px;
+  margin-left: -5px;
+}
+.nav-pills > li > a.nav-link {
+  text-decoration: none;
+  padding: 5px 15px;
+  font-size: 14px;
+  border-radius: 0;
+  color: #000000;
+}
+.headings-wide-spacing-enabled .nav-pills > li > a.nav-link {
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+}
+.nav-pills > li > a.nav-link.active,
+.nav-pills > li > a.nav-link.active:focus,
+.nav-pills > li > a.nav-link.active:hover {
+  color: #000000;
+}
+.region--colored-background .nav-pills > li > a.nav-link.active,
+.region--colored-background .nav-pills > li > a.nav-link.active:focus,
+.region--colored-background .nav-pills > li > a.nav-link.active:hover,
+.region--dark-background .nav-pills > li > a.nav-link.active,
+.region--dark-background .nav-pills > li > a.nav-link.active:focus,
+.region--dark-background .nav-pills > li > a.nav-link.active:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+.region--colored-background .nav-pills > li > a.nav-link:focus,
+.region--colored-background .nav-pills > li > a.nav-link:hover,
+.region--dark-background .nav-pills > li > a.nav-link:focus,
+.region--dark-background .nav-pills > li > a.nav-link:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+.nav.nav-pills > li,
+.nav.nav-pills > li + li {
+  margin: 0px 5px 15px;
+}
+
+/*nav pills @colored-regions*/
+.region--light-typography .nav-pills > li > a.nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ffffff;
+}
+.region--light-typography .nav-pills > li > a.nav-link.active,
+.region--light-typography .nav-pills > li > a.nav-link.active:focus,
+.region--light-typography .nav-pills > li > a.nav-link.active:hover,
+.region--light-typography .nav-pills > li > a.nav-link:hover,
+.region--light-typography .nav-pills > li > a.nav-link:focus {
+  color: #363636;
+  background-color: #ffffff;
+}

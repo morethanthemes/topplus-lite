@@ -1,0 +1,40 @@
+/**
+ * @file
+ * Visual styles for Top+ Lite's transparent header.
+ */
+/*Layout*/
+@media (min-width: 768px) {
+  .header-container.js-display-absolute {
+    position: absolute;
+    width: 100%;
+    z-index: 22;
+  }
+}
+@media (max-width: 767px) {
+  .background-image-area .transparent-header-overlay {
+    opacity: 1!important;
+  }
+}
+
+/*Drupal Resets*/
+.js-display-absolute + .banner .block:first-child .contextual {
+  top: 200px;
+}
+.js-display-absolute + .banner .block:first-child .view .contextual {
+  top: 230px !important;
+}
+.transparent-header-enabled {
+  background-color: transparent !important;
+}
+.transparent-header-enabled .transparent-header-container {
+  position: relative;
+}
+.transparent-header-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}

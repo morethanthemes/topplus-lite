@@ -1,0 +1,112 @@
+/**
+ * @file
+ * Visual styles for Top+'s pricing tables.
+ */
+.view-pricing-tables {
+  position: relative;
+  padding-top: 30px;
+}
+.view-pricing-tables .view-header {
+  padding-bottom: 40px;
+}
+.view-pricing-tables .view-footer {
+  font-size: 12px;
+  text-align: center;
+  padding-top: 35px;
+}
+.view-pricing-tables .pricing-table {
+  border-width: 1px;
+  border-style: solid;
+  margin: 0 0 40px 0;
+  padding:0 30px 130px 30px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  position: relative;
+  background-color: #ffffff;
+  color: #000000;
+}
+.view-pricing-tables .most-popular .pricing-table {
+  background-color: #000000;
+  color: #ffffff;
+  border-color: #000000;
+}
+.region--black-background .view-pricing-tables .pricing-table {
+  border-color: #000000;
+}
+.region--black-background .view-pricing-tables .most-popular .pricing-table {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+.view-pricing-tables .pricing-table .views-field-title {
+  font-weight: 400;
+  font-size: 22px;
+  padding: 40px 0 2px;
+}
+.view-pricing-tables .pricing-table .views-field-title a {
+  text-decoration: none;
+  color: #000000;
+}
+.view-pricing-tables .most-popular .pricing-table .views-field-title a {
+  color: #ffffff;
+}
+.view-pricing-tables .pricing-table .views-field-title a:hover {
+  text-decoration: none;
+}
+.view-pricing-tables .views-field-field-mt-price {
+  padding: 0 0 40px 0;
+  font-weight: 700;
+  font-size: 40px;
+}
+.view-pricing-tables .pricing-table .item-list>ul {
+  list-style: none;
+  margin: 0;
+}
+.view-pricing-tables .views-row:not(.most-popular) .views-field-field-mt-most-popular {
+  display: none;
+}
+.view-pricing-tables .pricing-table .views-field-field-mt-most-popular {
+  font-size: 12px;
+  line-height: 40px;
+  position: absolute;
+  width: auto;
+  height: 40px;
+  border-radius: 0;
+  padding: 0 15px 0;
+  right: -1px;
+  top: -1px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #000000;
+}
+.view-pricing-tables .pricing-table .item-list li {
+  margin: 0;
+}
+.view-pricing-tables .pricing-table .views-field-item {
+  padding: 3px 0;
+  margin:0;
+}
+.view-pricing-tables .pricing-table-footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  padding: 30px 0;
+}
+.view-pricing-tables .pricing-table .button,
+.view-pricing-tables .pricing-table .button:hover {
+  color: #000000;
+}
+@media (min-width: 767px) {
+  .view-pricing-tables .pricing-table {
+    height: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .view-pricing-tables .pricing-table {
+    margin: 0 10px;
+  }
+  .view-pricing-tables .views-field-field-mt-price {
+    font-size: 70px;
+  }
+}

@@ -1,0 +1,224 @@
+/**
+ * @file
+ * Visual styles for Top+ Lite's forms.
+ */
+.form-item,
+.form-actions {
+  margin: 20px 0;
+}
+input.form-text,
+input.form-tel,
+input.form-email,
+input.form-url,
+input.form-search,
+input.form-file,
+input.form-number,
+input.form-color,
+input.form-date,
+textarea,
+select {
+  background: #f6f6f6;
+  color: #000000;
+  font-size: 18px;
+  padding: 14px 15px;
+  outline:none;
+  border-width: 2px;
+  border-style: solid;
+  border-color: transparent;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  -webkit-appearance: none;
+  width: 100%;
+  font-weight: 400;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: border-color 0.2s linear, background-color 0.2s linear;
+  -o-transition: border-color 0.2s linear, background-color 0.2s linear;
+  transition: border-color 0.2s linear, background-color 0.2s linear;
+}
+input[type=search] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.region--light-typography input.form-text,
+.region--light-typography input.form-tel,
+.region--light-typography input.form-email,
+.region--light-typography input.form-url,
+.region--light-typography input.form-search,
+.region--light-typography input.form-file,
+.region--light-typography input.form-number,
+.region--light-typography input.form-color,
+.region--light-typography input.form-date,
+.region--light-typography textarea,
+.region--light-typography select {
+  border-color: #ffffff;
+  box-shadow: none;
+}
+.region--light-typography input.form-text:hover,
+.region--light-typography input.form-tel:hover,
+.region--light-typography input.form-email:hover,
+.region--light-typography input.form-url:hover,
+.region--light-typography input.form-search:hover,
+.region--light-typography input.form-file:hover,
+.region--light-typography input.form-number:hover,
+.region--light-typography input.form-color:hover,
+.region--light-typography input.form-date:hover,
+.region--light-typography textarea:hover,
+.region--light-typography select:hover,
+.region--light-typography input.form-text:focus,
+.region--light-typography input.form-tel:focus,
+.region--light-typography input.form-email:focus,
+.region--light-typography input.form-url:focus,
+.region--light-typography input.form-search:focus,
+.region--light-typography input.form-file:focus,
+.region--light-typography input.form-number:focus,
+.region--light-typography input.form-color:focus,
+.region--light-typography input.form-date:focus,
+.region--light-typography textarea:focus,
+.region--light-typography select:focus {
+  border-color: #fff;
+  background-color: #fff;
+}
+select {
+  margin: 10px 0;
+}
+
+/*webkit specific rules for select list*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  select {
+    background-image: url("../../images/angle-down-black.png");
+    background-image: linear-gradient(transparent, transparent), url("../../images/angle-down-black.svg");
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 98.5% 50%;
+  }
+}
+
+/*inline form elements*/
+.container-inline:not(.block) {
+  margin: 15px 0;
+}
+.container-inline input.form-text,
+.container-inline input.form-tel,
+.container-inline input.form-email,
+.container-inline input.form-url,
+.container-inline input.form-search,
+.container-inline input.form-file,
+.container-inline input.form-number,
+.container-inline input.form-color,
+.container-inline input.form-date {
+  width: auto;
+  margin-right: 0;
+  padding: 13px 15px 10px;
+  font-size: 18px;
+  line-height: 24px;
+  display: inline-block;
+}
+.container-inline input[type="submit"] {
+  margin: 0;
+}
+@media (max-width: 767px) {
+  .container-inline .form-actions {
+    margin: 10px 0;
+    display: block;
+  }
+  .container-inline .form-submit {
+    margin-top: 5px;
+  }
+  .container-inline input.form-text,
+  .container-inline input.form-tel,
+  .container-inline input.form-email,
+  .container-inline input.form-url,
+  .container-inline input.form-search,
+  .container-inline input.form-file,
+  .container-inline input.form-number,
+  .container-inline input.form-color,
+  .container-inline input.form-date {
+    width: 100%;
+  }
+}
+
+/*Form group*/
+.form-group {
+  margin-bottom: 20px;
+  position: relative;
+}
+.form-group:last-child {
+  margin-bottom: 0;
+}
+.form-group .form-item,
+.form-group .form-actions {
+  margin: 0;
+}
+.form-submit-icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 30px;
+  height: 100%;
+  color: #ffffff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+}
+.form-submit-icon i {
+  line-height: 40px
+}
+
+/*textarea*/
+textarea {
+  resize: none;
+}
+label {
+  display: block;
+  color: #363636;
+  font-size: 15px;
+}
+.label {
+  color: #2d2d2d;
+}
+.region--light-typography .label,
+.region--light-typography label {
+  color: #ffffff;
+}
+
+/*fieldset*/
+fieldset {
+  border: 1px solid #acacac;
+  padding: 0.5em;
+  margin: 20px 0 35px;
+}
+fieldset legend {
+  border: 1px solid #acacac;
+  display: inline-block;
+  width: auto;
+  padding: 5px;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-left: 10px;
+}
+.region--light-typography fieldset legend {
+  color: #ffffff;
+}
+
+/*checkboxes and radios*/
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0px 10px 3px 0;
+}
+
+/*form placeholder*/
+::-webkit-input-placeholder {
+  color: #000000;
+}
+:-moz-placeholder {
+  color: #000000;
+}
+::-moz-placeholder {
+  color: #000000;
+}
+:-ms-input-placeholder {
+  color: #000000;
+}

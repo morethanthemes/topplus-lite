@@ -1,0 +1,5 @@
+# Schema for the configuration files of the Top+ Lite theme.
+
+topplus_lite.settings:
+  type: theme_settings
+  label: 'Top+ Lite settings'

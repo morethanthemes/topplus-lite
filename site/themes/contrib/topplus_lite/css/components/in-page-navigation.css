@@ -1,0 +1,19 @@
+/**
+ * @file
+ * Visual styles for Top+ Lite's in page navigation.
+ */
+body.in-page-navigation-active {
+  position: relative;
+}
+.onscroll .header-container ul.in-page-navigation li a.active {
+  background-color: #000000;
+}
+.onscroll .header-container ul.in-page-navigation li a:focus,
+.onscroll .header-container ul.in-page-navigation li a:hover {
+  background-color: #000000;
+}
+.header-container .region--black-background ul.in-page-navigation li a.active,
+.header-container .region--black-background ul.in-page-navigation li a:focus,
+.header-container .region--black-background ul.in-page-navigation li a:hover {
+  background-color: transparent;
+}

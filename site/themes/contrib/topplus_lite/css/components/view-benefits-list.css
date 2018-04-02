@@ -1,0 +1,67 @@
+/**
+ * @file
+ * Visual styles for Top+'s benefits list views.
+ */
+.view-benefits-list .views-row {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.view-benefits-list .views-row:first-child {
+  margin-top: 50px;
+}
+.view-benefits-list .views-row:last-child {
+  margin-bottom: 50px;
+}
+.view-benefits-list .views-field-title h2 {
+  margin-top: 0;
+}
+.view-benefits-list .views-field-title a {
+  font-size: 60px;
+}
+.region--dark-typography .view-benefits-list .views-field-title a {
+  color: #000000;
+}
+@media (max-width: 1199px) {
+  .view-benefits-list .views-field-title a {
+    font-size: 48px;
+  }
+}
+@media (max-width: 991px) {
+  .view-benefits-list .views-field-title a {
+    font-size: 36px;
+  }
+}
+@media (max-width: 767px) {
+  .view-benefits-list .views-field-title h2 {
+    margin-top: 20px;
+  }
+}
+@media (min-width: 768px) { 
+  .view-benefits-list .views-field-field-image {
+    width: 48%;
+  }
+  .view-benefits-list .views-row:nth-child(even) .views-field-field-image {
+    float: left;
+  }
+  .view-benefits-list .views-row:nth-child(even) .views-field-title,
+  .view-benefits-list .views-row:nth-child(even) .views-field-body,
+  .view-benefits-list .views-row:nth-child(even) .views-field-view-node {
+    margin-left: 52%;
+  }
+  .view-benefits-list .views-row:nth-child(odd) .views-field-field-image {
+    float: right;
+  }
+  .view-benefits-list .views-row:nth-child(odd) .views-field-title,
+  .view-benefits-list .views-row:nth-child(odd) .views-field-body,
+  .view-benefits-list .views-row:nth-child(odd) .views-field-view-node {
+    margin-right: 52%;
+  }
+  .view-benefits-list .views-field-view-node a {
+    margin-bottom: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) { 
+  .view-benefits-list .views-field-title {
+    margin-bottom: 0;
+  }
+}

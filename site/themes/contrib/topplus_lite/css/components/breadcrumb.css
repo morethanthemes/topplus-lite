@@ -1,0 +1,57 @@
+/**
+ * @file
+ * Styles for Top+ Lite's breadcrumbs.
+ */
+.breadcrumb {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+.breadcrumb__items {
+  font-size: 0;
+  padding: 0;
+  margin: 0;
+}
+.breadcrumb__item {
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: top;
+  line-height: 1.75;
+  padding: 15px 0;
+  font-size: 12px;
+  font-weight: 400;
+}
+.breadcrumb__item a {
+  text-decoration: none;
+  color: #000000;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-bottom-color: #000000;
+}
+.breadcrumb__item a:hover {
+  color: #000000;
+  border-bottom-color: transparent!important;
+}
+.region--light-typography .breadcrumb__item a {
+  border-bottom-color: #ffffff;
+  color: #ffffff;
+}
+.region--light-typography .breadcrumb__item a:hover {
+  color: #ffffff;
+}
+.breadcrumb__item .breadcrumb__item-separator {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 1;
+  font-size: 10px;
+  padding: 0 7px 0 9px;
+  vertical-align: baseline;
+  font-weight: 400;
+}
+.breadcrumb__item:first-child .breadcrumb__item-separator {
+  display: none;
+}

@@ -1,0 +1,20 @@
+/**
+ * @file
+ * Visual styles for Top+ Lite's contact info block.
+ */
+.container-fluid .call-to-action {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.call-to-action h2.title {
+  margin-top: 0;
+  font-size: 60px;
+}
+.node--type-mt-product .call-to-action {
+  margin-bottom: 100px;
+}
+@media (max-width: 575px) {
+  .call-to-action h2.title {
+    font-size: 48px;
+  }
+}

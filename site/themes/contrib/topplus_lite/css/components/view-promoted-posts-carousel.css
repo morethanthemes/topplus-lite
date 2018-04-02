@@ -1,0 +1,96 @@
+/**
+ * @file
+ * Visual styles for Top+'s promoted posts carousel.
+ */
+.view-promoted-posts-carousel h2.title {
+  margin-bottom: 0;
+  padding-top: 30px;
+}
+.view-promoted-posts-carousel .views-field-title h3 {
+  margin: 0;
+  padding: 25px 0 15px 0;
+}
+@media (max-width: 575px) {
+  .view-promoted-posts-carousel .views-field-title h3 {
+    font-size: 18px;
+  }
+}
+.view-promoted-posts-carousel .mt-carousel-item {
+  background-color: #f7f7f7;
+  color: #000000;
+}
+.view-promoted-posts-carousel .mt-carousel-item-caption {
+  position: relative;
+  padding-bottom: 10px;
+}
+.view-promoted-posts-carousel .mt-carousel-item-target-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+}
+.view-promoted-posts-carousel .views-field-body {
+  padding-bottom: 20px;
+}
+.view-promoted-posts-carousel .views-field-body p {
+  padding-bottom: 0;
+}
+.view-promoted-posts-carousel .views-field-title,
+.view-promoted-posts-carousel .views-field-body {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+@media (min-width: 1200px) {
+  .mt-carousel-promoted-posts .owl-stage-outer {
+    padding: 30px 0 60px;
+  }
+  .view-promoted-posts-carousel .views-field-body {
+    display: none;
+  }
+  .view-promoted-posts-carousel .active + .active {
+    z-index: 500;
+    margin-top: -30px;
+  }
+  .view-promoted-posts-carousel .active + .active + .active {
+    z-index: 10;
+    margin-top: 0px;
+  }
+  .view-promoted-posts-carousel .active + .active .mt-carousel-item {
+    box-shadow: 0px 5px 15px rgba(60, 70, 80, 0.15), 0 15px 40px rgba(60, 70, 80, 0.08);
+  }
+  .view-promoted-posts-carousel .active + .active + .active .mt-carousel-item {
+    box-shadow: none;
+  }
+  .view-promoted-posts-carousel .active + .active .views-field-body {
+    display: block;
+  }
+  .view-promoted-posts-carousel .active + .active + .active .views-field-body {
+    display: none;
+  }
+}
+
+/*navigation controls*/
+.view-promoted-posts-carousel .owl-nav div:after {
+  font-size: 36px;
+  top: 0px;
+}
+.view-promoted-posts-carousel .owl-nav {
+  bottom: -10px;
+  top: auto;
+}
+@media (min-width: 1200px) {
+  .view-promoted-posts-carousel .owl-nav {
+    left: 50%;
+    width: 44vw;
+    margin-left: -22vw;
+    bottom: 90px;
+  }
+}
+@media (min-width: 2560px) {
+  .view-promoted-posts-carousel .owl-nav {
+    bottom: 70px;
+  }
+}
