@@ -84,6 +84,7 @@ global-styling:
       css/components/view-promoted-posts-carousel.css: {}
       css/components/view-benefits-list.css: {}
       css/components/view-pricing-tables.css: {}
+      css/components/flexslider.css: {}
 
 to-top:
   version: VERSION

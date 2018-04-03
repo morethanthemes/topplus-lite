@@ -27,7 +27,7 @@ transparent_header_state: true
 transparent_header_opacity: '0'
 header_blocks_paddings: false
 header_region_paddings: false
-banner_layout_container: 'container'
+banner_layout_container: 'container-fluid'
 banner_background_color: 'region--dark-typography region--white-background'
 banner_blocks_paddings: true
 banner_region_paddings: true
@@ -116,8 +116,8 @@ subfooter_separator: 'region--separator-border-top'
 subfooter_background_color: 'region--light-typography region--black-background'
 subfooter_bottom_blocks_paddings: false
 subfooter_bottom_region_paddings: false
-front_page_background_state: true
-front_page_background_opacity: '40'
+front_page_background_state: false
+front_page_background_opacity: '0'
 reading_time: false
 share_links: false
 share_links_print_position: "bottom"

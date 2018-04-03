@@ -510,3 +510,8 @@
     margin-right: 0;
   }
 }
+
+/* Banner full width region */
+.container-fluid .banner__section {
+  margin: 0 -15px;
+}
