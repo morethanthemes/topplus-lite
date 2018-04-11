@@ -49,6 +49,16 @@
 .node ul.inline li a {
   margin: 0 20px 10px 0;
 }
+.node--view-mode-teaser ul.links .comment-forbidden {
+  margin-left: 20px;
+}
+.node ul.links .comment-forbidden,
+.node ul.links .comment-forbidden a {
+  font-size: 15px;
+}
+.node--view-mode-teaser ul.links .comment-new-comments a {
+  margin: 0;
+}
 .node .comment-forbidden a:last-child {
   margin: 0 10px 10px 10px;
 }
