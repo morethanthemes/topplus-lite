@@ -117,12 +117,32 @@ function topplus_lite_form_system_theme_settings_alter(&$form, &$form_state) {
     '#group' => 'tabs',
   );
 
+  $form['mtt_settings']['looknfeel_tab']['looknfeel']['premium_description'] = array(
+   '#type' => 'item',
+   '#markup' =>
+   '<div class="theme-settings-title">'.t("Available in the Premium version of this theme").'</div>
+   <div class="theme-settings-image-wrapper">
+   <a href="http://morethanthemes.com/themes/topplus?utm_source=topplus-lite-demo&utm_medium=theme-settings&utm_campaign=free-themes" target="_blank">
+   <img src="' . base_path() . drupal_get_path('theme', 'topplus_lite') . '/images/premium-01-looknfeel.jpg" />
+   </a></div> ',
+  );
+
   $form['mtt_settings']['regions_tab']['regions'] = array(
     '#type' => 'details',
     '#title' => t('Region settings'),
     '#collapsible' => TRUE,
     '#collapsed' => TRUE,
     '#group' => 'tabs',
+  );
+
+  $form['mtt_settings']['regions_tab']['regions']['premium_description'] = array(
+   '#type' => 'item',
+   '#markup' =>
+   '<div class="theme-settings-title">'.t("Available in the Premium version of this theme").'</div>
+   <div class="theme-settings-image-wrapper">
+   <a href="http://morethanthemes.com/themes/topplus?utm_source=topplus-lite-demo&utm_medium=theme-settings&utm_campaign=free-themes" target="_blank">
+   <img src="' . base_path() . drupal_get_path('theme', 'topplus_lite') . '/images/premium-02-region.jpg" />
+   </a></div> ',
   );
 
   $form['mtt_settings']['front_page_tab']['front_page'] = array(
@@ -133,6 +153,15 @@ function topplus_lite_form_system_theme_settings_alter(&$form, &$form_state) {
     '#group' => 'tabs',
   );
 
+  $form['mtt_settings']['front_page_tab']['front_page']['premium_description'] = array(
+   '#type' => 'item',
+   '#markup' =>
+   '<div class="theme-settings-title">'.t("Available in the Premium version of this theme").'</div>
+   <div class="theme-settings-image-wrapper">
+   <a href="http://morethanthemes.com/themes/topplus?utm_source=topplus-lite-demo&utm_medium=theme-settings&utm_campaign=free-themes" target="_blank">
+   <img src="' . base_path() . drupal_get_path('theme', 'topplus_lite') . '/images/premium-03-frontpage.jpg" />
+   </a></div> ',
+  );
 
   $form['mtt_settings']['post_tab']['post'] = array(
     '#type' => 'details',
@@ -140,6 +169,16 @@ function topplus_lite_form_system_theme_settings_alter(&$form, &$form_state) {
     '#collapsible' => TRUE,
     '#collapsed' => TRUE,
     '#group' => 'tabs',
+  );
+
+  $form['mtt_settings']['post_tab']['post']['premium_description'] = array(
+   '#type' => 'item',
+   '#markup' =>
+   '<div class="theme-settings-title">'.t("Available in the Premium version of this theme").'</div>
+   <div class="theme-settings-image-wrapper">
+   <a href="http://morethanthemes.com/themes/topplus?utm_source=topplus-lite-demo&utm_medium=theme-settings&utm_campaign=free-themes" target="_blank">
+   <img src="' . base_path() . drupal_get_path('theme', 'topplus_lite') . '/images/premium-04-article.jpg" />
+   </a></div> ',
   );
 
   $form['mtt_settings']['layout_tab']['layout_modes'] = array(
@@ -150,12 +189,32 @@ function topplus_lite_form_system_theme_settings_alter(&$form, &$form_state) {
     '#group' => 'tabs',
   );
 
+  $form['mtt_settings']['layout_tab']['layout_modes']['premium_description'] = array(
+   '#type' => 'item',
+   '#markup' =>
+   '<div class="theme-settings-title">'.t("Available in the Premium version of this theme").'</div>
+   <div class="theme-settings-image-wrapper">
+   <a href="http://morethanthemes.com/themes/topplus?utm_source=topplus-lite-demo&utm_medium=theme-settings&utm_campaign=free-themes" target="_blank">
+   <img src="' . base_path() . drupal_get_path('theme', 'topplus_lite') . '/images/premium-05-layout.jpg" />
+   </a></div> ',
+  );
+
   $form['mtt_settings']['font_tab']['font'] = array(
     '#type' => 'details',
     '#title' => t('Font Settings'),
     '#collapsible' => TRUE,
     '#collapsed' => TRUE,
     '#group' => 'tabs',
+  );
+
+  $form['mtt_settings']['font_tab']['font']['premium_description'] = array(
+   '#type' => 'item',
+   '#markup' =>
+   '<div class="theme-settings-title">'.t("Available in the Premium version of this theme").'</div>
+   <div class="theme-settings-image-wrapper">
+   <a href="http://morethanthemes.com/themes/topplus?utm_source=topplus-lite-demo&utm_medium=theme-settings&utm_campaign=free-themes" target="_blank">
+   <img src="' . base_path() . drupal_get_path('theme', 'topplus_lite') . '/images/premium-06-fonts.jpg" />
+   </a></div> ',
   );
 
   $form['mtt_settings']['slideshows_tab']['slideshow'] = array(
@@ -166,12 +225,32 @@ function topplus_lite_form_system_theme_settings_alter(&$form, &$form_state) {
     '#group' => 'tabs',
   );
 
+  $form['mtt_settings']['slideshows_tab']['slideshow']['premium_description'] = array(
+   '#type' => 'item',
+   '#markup' =>
+   '<div class="theme-settings-title">'.t("Available in the Premium version of this theme").'</div>
+   <div class="theme-settings-image-wrapper">
+   <a href="http://morethanthemes.com/themes/topplus?utm_source=topplus-lite-demo&utm_medium=theme-settings&utm_campaign=free-themes" target="_blank">
+   <img src="' . base_path() . drupal_get_path('theme', 'topplus_lite') . '/images/premium-07-slideshow.jpg" />
+   </a></div> ',
+  );
+
   $form['mtt_settings']['in_page_navigation']['in_page_navigation_settings'] = array(
     '#type' => 'details',
     '#title' => t('In page Navigation'),
     '#collapsible' => TRUE,
     '#collapsed' => TRUE,
     '#group' => 'tabs',
+  );
+
+  $form['mtt_settings']['in_page_navigation']['in_page_navigation_settings']['premium_description'] = array(
+   '#type' => 'item',
+   '#markup' =>
+   '<div class="theme-settings-title">'.t("Available in the Premium version of this theme").'</div>
+   <div class="theme-settings-image-wrapper">
+   <a href="http://morethanthemes.com/themes/topplus?utm_source=topplus-lite-demo&utm_medium=theme-settings&utm_campaign=free-themes" target="_blank">
+   <img src="' . base_path() . drupal_get_path('theme', 'topplus_lite') . '/images/premium-08-navigation.jpg" />
+   </a></div> ',
   );
 
   $form['mtt_settings']['isotope_tab'] = array(
@@ -182,12 +261,50 @@ function topplus_lite_form_system_theme_settings_alter(&$form, &$form_state) {
     '#group' => 'tabs',
   );
 
+  $form['mtt_settings']['isotope_tab']['premium_description'] = array(
+   '#type' => 'item',
+   '#markup' =>
+   '<div class="theme-settings-title">'.t("Available in the Premium version of this theme").'</div>
+   <div class="theme-settings-image-wrapper">
+   <a href="http://morethanthemes.com/themes/topplus?utm_source=topplus-lite-demo&utm_medium=theme-settings&utm_campaign=free-themes" target="_blank">
+   <img src="' . base_path() . drupal_get_path('theme', 'topplus_lite') . '/images/premium-09-isotope.jpg" />
+   </a></div> ',
+  );
+
   $form['mtt_settings']['google_maps_tab'] = array(
     '#type' => 'details',
     '#title' => t('Google Maps Settings'),
     '#collapsible' => TRUE,
     '#collapsed' => FALSE,
     '#group' => 'tabs',
+  );
+
+  $form['mtt_settings']['google_maps_tab']['premium_description'] = array(
+   '#type' => 'item',
+   '#markup' =>
+   '<div class="theme-settings-title">'.t("Available in the Premium version of this theme").'</div>
+   <div class="theme-settings-image-wrapper">
+   <a href="http://morethanthemes.com/themes/topplus?utm_source=topplus-lite-demo&utm_medium=theme-settings&utm_campaign=free-themes" target="_blank">
+   <img src="' . base_path() . drupal_get_path('theme', 'topplus_lite') . '/images/premium-10-googlemaps.jpg" />
+   </a></div> ',
+  );
+
+  $form['mtt_settings']['premium_tab'] = array(
+    '#type' => 'details',
+    '#title' => t('Premium version'),
+    '#collapsible' => TRUE,
+    '#collapsed' => TRUE,
+    '#group' => 'tabs',
+  );
+
+  $form['mtt_settings']['premium_tab']['premium_description'] = array(
+   '#type' => 'item',
+   '#markup' =>
+   '<div class="theme-settings-title">'.t("Premium version of this theme").'</div>
+   <div class="theme-settings-image-wrapper">
+   <a href="http://morethanthemes.com/themes/topplus?utm_source=topplus-lite-demo&utm_medium=theme-settings&utm_campaign=free-themes" target="_blank">
+   <img src="' . base_path() . drupal_get_path('theme', 'topplus_lite') . '/images/premium.jpg" />
+   </a></div> ',
   );
 
 }
