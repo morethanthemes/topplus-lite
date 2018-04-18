@@ -1,7 +1,7 @@
 name: Top+ Lite
 type: theme
 base theme: classy
-description: 'A flexible, recolorable theme with many regions and a responsive, mobile-first layout.'
+description: 'The free version of <a target="_blank" href="https://morethanthemes.com/themes/topplus?utm_source=topplus-lite-demo&amp;utm_medium=theme-settings&amp;utm_campaign=free-themes">Top+ Drupal 8 theme</a>'
 core: 8.x
 libraries:
   - topplus_lite/fontawesome
