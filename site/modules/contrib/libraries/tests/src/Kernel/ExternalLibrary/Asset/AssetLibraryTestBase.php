@@ -16,7 +16,7 @@ abstract class AssetLibraryTestBase extends LibraryTypeKernelTestBase {
    *
    * @see \Drupal\libraries\ExternalLibrary\LibraryManager::getRequiredLibraryIds()
    */
-  public static $modules = ['system'];
+  protected static $modules = ['system'];
 
   /**
    * The Drupal core library discovery.
@@ -28,9 +28,16 @@ abstract class AssetLibraryTestBase extends LibraryTypeKernelTestBase {
   /**
    * {@inheritdoc}
    */
-  protected function setUp() {
+  protected function setUp(): void {
     parent::setUp();
     $this->coreLibraryDiscovery = $this->container->get('library.discovery');
+  }
+
+  /**
+   * Get license name.
+   */
+  public function getLicenseName(): string {
+    return version_compare(\Drupal::VERSION, '10.3.0', '<') ? 'GNU-GPL-2.0-or-later' : 'GPL-2.0-or-later';
   }
 
 }

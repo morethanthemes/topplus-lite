@@ -2,7 +2,7 @@ name: Top+ Lite
 type: theme
 base theme: classy
 description: 'The free version of <a target="_blank" href="https://morethanthemes.com/themes/topplus?utm_source=topplus-lite-demo&amp;utm_medium=theme-settings&amp;utm_campaign=free-themes">Top+ Drupal 8 theme</a>'
-core: 8.x
+core_version_requirement: ^8 || ^9 || ^10
 libraries:
   - topplus_lite/fontawesome
   - topplus_lite/global-styling
