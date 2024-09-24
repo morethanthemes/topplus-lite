@@ -123,7 +123,7 @@ function topplus_lite_form_system_theme_settings_alter(&$form, &$form_state) {
    '<div class="theme-settings-title">'.t("Available in the Premium version of this theme").'</div>
    <div class="theme-settings-image-wrapper">
    <a href="http://morethanthemes.com/themes/topplus?utm_source=topplus-lite-demo&utm_medium=theme-settings&utm_campaign=free-themes" target="_blank">
-   <img src="' . base_path() . drupal_get_path('theme', 'topplus_lite') . '/images/premium-01-looknfeel.jpg" />
+   <img src="' . base_path() . \Drupal::service('extension.path.resolver')->getPath('theme', 'topplus_lite') . '/images/premium-01-looknfeel.jpg" />
    </a></div> ',
   );
 
@@ -141,7 +141,7 @@ function topplus_lite_form_system_theme_settings_alter(&$form, &$form_state) {
    '<div class="theme-settings-title">'.t("Available in the Premium version of this theme").'</div>
    <div class="theme-settings-image-wrapper">
    <a href="http://morethanthemes.com/themes/topplus?utm_source=topplus-lite-demo&utm_medium=theme-settings&utm_campaign=free-themes" target="_blank">
-   <img src="' . base_path() . drupal_get_path('theme', 'topplus_lite') . '/images/premium-02-region.jpg" />
+   <img src="' . base_path() . \Drupal::service('extension.path.resolver')->getPath('theme', 'topplus_lite') . '/images/premium-02-region.jpg" />
    </a></div> ',
   );
 
@@ -159,7 +159,7 @@ function topplus_lite_form_system_theme_settings_alter(&$form, &$form_state) {
    '<div class="theme-settings-title">'.t("Available in the Premium version of this theme").'</div>
    <div class="theme-settings-image-wrapper">
    <a href="http://morethanthemes.com/themes/topplus?utm_source=topplus-lite-demo&utm_medium=theme-settings&utm_campaign=free-themes" target="_blank">
-   <img src="' . base_path() . drupal_get_path('theme', 'topplus_lite') . '/images/premium-03-frontpage.jpg" />
+   <img src="' . base_path() . \Drupal::service('extension.path.resolver')->getPath('theme', 'topplus_lite') . '/images/premium-03-frontpage.jpg" />
    </a></div> ',
   );
 
@@ -177,7 +177,7 @@ function topplus_lite_form_system_theme_settings_alter(&$form, &$form_state) {
    '<div class="theme-settings-title">'.t("Available in the Premium version of this theme").'</div>
    <div class="theme-settings-image-wrapper">
    <a href="http://morethanthemes.com/themes/topplus?utm_source=topplus-lite-demo&utm_medium=theme-settings&utm_campaign=free-themes" target="_blank">
-   <img src="' . base_path() . drupal_get_path('theme', 'topplus_lite') . '/images/premium-04-article.jpg" />
+   <img src="' . base_path() . \Drupal::service('extension.path.resolver')->getPath('theme', 'topplus_lite') . '/images/premium-04-article.jpg" />
    </a></div> ',
   );
 
@@ -195,7 +195,7 @@ function topplus_lite_form_system_theme_settings_alter(&$form, &$form_state) {
    '<div class="theme-settings-title">'.t("Available in the Premium version of this theme").'</div>
    <div class="theme-settings-image-wrapper">
    <a href="http://morethanthemes.com/themes/topplus?utm_source=topplus-lite-demo&utm_medium=theme-settings&utm_campaign=free-themes" target="_blank">
-   <img src="' . base_path() . drupal_get_path('theme', 'topplus_lite') . '/images/premium-05-layout.jpg" />
+   <img src="' . base_path() . \Drupal::service('extension.path.resolver')->getPath('theme', 'topplus_lite') . '/images/premium-05-layout.jpg" />
    </a></div> ',
   );
 
@@ -213,7 +213,7 @@ function topplus_lite_form_system_theme_settings_alter(&$form, &$form_state) {
    '<div class="theme-settings-title">'.t("Available in the Premium version of this theme").'</div>
    <div class="theme-settings-image-wrapper">
    <a href="http://morethanthemes.com/themes/topplus?utm_source=topplus-lite-demo&utm_medium=theme-settings&utm_campaign=free-themes" target="_blank">
-   <img src="' . base_path() . drupal_get_path('theme', 'topplus_lite') . '/images/premium-06-fonts.jpg" />
+   <img src="' . base_path() . \Drupal::service('extension.path.resolver')->getPath('theme', 'topplus_lite') . '/images/premium-06-fonts.jpg" />
    </a></div> ',
   );
 
@@ -231,7 +231,7 @@ function topplus_lite_form_system_theme_settings_alter(&$form, &$form_state) {
    '<div class="theme-settings-title">'.t("Available in the Premium version of this theme").'</div>
    <div class="theme-settings-image-wrapper">
    <a href="http://morethanthemes.com/themes/topplus?utm_source=topplus-lite-demo&utm_medium=theme-settings&utm_campaign=free-themes" target="_blank">
-   <img src="' . base_path() . drupal_get_path('theme', 'topplus_lite') . '/images/premium-07-slideshow.jpg" />
+   <img src="' . base_path() . \Drupal::service('extension.path.resolver')->getPath('theme', 'topplus_lite') . '/images/premium-07-slideshow.jpg" />
    </a></div> ',
   );
 
@@ -249,7 +249,7 @@ function topplus_lite_form_system_theme_settings_alter(&$form, &$form_state) {
    '<div class="theme-settings-title">'.t("Available in the Premium version of this theme").'</div>
    <div class="theme-settings-image-wrapper">
    <a href="http://morethanthemes.com/themes/topplus?utm_source=topplus-lite-demo&utm_medium=theme-settings&utm_campaign=free-themes" target="_blank">
-   <img src="' . base_path() . drupal_get_path('theme', 'topplus_lite') . '/images/premium-08-navigation.jpg" />
+   <img src="' . base_path() . \Drupal::service('extension.path.resolver')->getPath('theme', 'topplus_lite') . '/images/premium-08-navigation.jpg" />
    </a></div> ',
   );
 
@@ -267,7 +267,7 @@ function topplus_lite_form_system_theme_settings_alter(&$form, &$form_state) {
    '<div class="theme-settings-title">'.t("Available in the Premium version of this theme").'</div>
    <div class="theme-settings-image-wrapper">
    <a href="http://morethanthemes.com/themes/topplus?utm_source=topplus-lite-demo&utm_medium=theme-settings&utm_campaign=free-themes" target="_blank">
-   <img src="' . base_path() . drupal_get_path('theme', 'topplus_lite') . '/images/premium-09-isotope.jpg" />
+   <img src="' . base_path() . \Drupal::service('extension.path.resolver')->getPath('theme', 'topplus_lite') . '/images/premium-09-isotope.jpg" />
    </a></div> ',
   );
 
@@ -285,7 +285,7 @@ function topplus_lite_form_system_theme_settings_alter(&$form, &$form_state) {
    '<div class="theme-settings-title">'.t("Available in the Premium version of this theme").'</div>
    <div class="theme-settings-image-wrapper">
    <a href="http://morethanthemes.com/themes/topplus?utm_source=topplus-lite-demo&utm_medium=theme-settings&utm_campaign=free-themes" target="_blank">
-   <img src="' . base_path() . drupal_get_path('theme', 'topplus_lite') . '/images/premium-10-googlemaps.jpg" />
+   <img src="' . base_path() . \Drupal::service('extension.path.resolver')->getPath('theme', 'topplus_lite') . '/images/premium-10-googlemaps.jpg" />
    </a></div> ',
   );
 
@@ -303,7 +303,7 @@ function topplus_lite_form_system_theme_settings_alter(&$form, &$form_state) {
    '<div class="theme-settings-title">'.t("Premium version of this theme").'</div>
    <div class="theme-settings-image-wrapper">
    <a href="http://morethanthemes.com/themes/topplus?utm_source=topplus-lite-demo&utm_medium=theme-settings&utm_campaign=free-themes" target="_blank">
-   <img src="' . base_path() . drupal_get_path('theme', 'topplus_lite') . '/images/premium.jpg" />
+   <img src="' . base_path() . \Drupal::service('extension.path.resolver')->getPath('theme', 'topplus_lite') . '/images/premium.jpg" />
    </a></div> ',
   );
 
